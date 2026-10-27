@@ -314,7 +314,6 @@ by example code).
        Component                                     Type                Description
        ============================================= =================== =============================================================================
        `dispatchPeriods`                             Set                 Number of dispatch periods
-       `carbonTax`                                   Parameter           Carbon tax
        `renewableSurplusCommitment`                  Expression          Total renewable surplus/deficit for commitment
        `operatingCostCommitment`                     Expression          Define total operating costs for commitment
        `renewableCurtailmentCommitment`              Expression          Define total curtailment for commitment

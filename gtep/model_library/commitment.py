@@ -29,8 +29,6 @@ def add_commitment_parameters(b, commitment_period, investmentStage):
 
     m = b.model()
 
-    b.carbonTax = pyo.Param(default=0)
-
     # Capacity needs to be in the commitment block "b", not in main
     # model "m"
     def renewable_capacity_expected_init(b, renewableGen):
