@@ -21,7 +21,7 @@ from gtep.tests.unit.pyomo_object_testing import PyomoCheckHelper
 from gtep.tests.unit.utils_for_testing import create_model, path_9_bus
 
 
-class TestObjective(TestCase):
+class TestStorage(TestCase):
     def _add_storage_params(self):
         self.check_helper.add_object(
             name="storageCapacity",
